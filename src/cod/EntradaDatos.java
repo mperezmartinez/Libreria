@@ -9,12 +9,16 @@ import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 /**
- *
- * @param 0 o 1 . 0 = Pde datos por consola. 1  = Pide datos en ventana. Si el parametro no esta permitido devuelve 0.
- * @return un valor numerico. 
  * @author Miguel
  */
 public class EntradaDatos {
+    
+    
+ /**
+ * Libreria con metodo de introduccion de datos numericos de dos maneras.
+ * @param tipo 0 || 1 . 0 = Pde datos por consola. 1  = Pide datos en ventana. Si el parametro no esta permitido devuelve 0.
+ * @return un valor numerico.
+ */  
 
     public int introducir(int tipo) {
 
